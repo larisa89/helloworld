@@ -3,4 +3,4 @@ From tomcat:8-jre8
 
 # Maintainer Larisa
 MAINTAINER "larisatazoa@yahoo.ca" 
-COPY ./welcome/target/welcome.war /usr/local/tomcat/welcome
+COPY ./webapp/target/welcome.war /usr/local/tomcat/webapps
